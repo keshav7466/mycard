@@ -1,0 +1,26 @@
+img{
+    height: 300px;
+    width: 400px;
+    border-radius: 10%;
+    transition: width 2s;
+    transition: height 2s;
+}
+img:hover{
+    width: 410px;
+    height: 420px;
+}
+.container{
+    display: flex;
+    grid-gap: 30px;
+    background-color: aqua;
+    padding: 10px;
+}
+.hi{
+    text-align: center;
+    font-size:medium;
+    background-color: beige;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
